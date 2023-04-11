@@ -25,6 +25,7 @@ pip install snscrape pandas matplotlib wordcloud nltk python-docx
 . If start date or end date is not provided, the default values will be used ('2019-01-01' for start date and '2019-06-30' for end date).
 . The word cloud will be saved as a PNG file in the same directory with the name of the search query and the type of the word cloud (e.g., search_query_positive.png).
 . If there are no positive or negative words, the script will generate a message saying so.
+
 ![Screenshot (334)](https://user-images.githubusercontent.com/111419512/231152576-2a8fa27f-1809-473c-a741-c6c2ea0520d0.png)
 ![Screenshot (335)](https://user-images.githubusercontent.com/111419512/231152588-d0ef656e-f925-4114-a51f-c1e45d8b97d4.png)
 ![Screenshot (336)](https://user-images.githubusercontent.com/111419512/231152594-dfa85194-92be-49e7-aee1-083f007a7b58.png)
