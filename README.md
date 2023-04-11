@@ -1,4 +1,4 @@
-#Twitter Data Analysis with Sentiment Analysis
+Twitter Data Analysis with Sentiment Analysis
 This project is a Python script that allows you to perform a search query on Twitter using snscrape library and analyze the tweets data by performing sentiment analysis, and generating a word cloud.
 
 #Prerequisites
@@ -20,6 +20,7 @@ pip install snscrape pandas matplotlib wordcloud nltk python-docx
   . Word cloud of frequently used positive words.
   . Word cloud of frequently used negative words.
 #Note
+
 . The start date and end date should be in the format 'yyyy-mm-dd'.
 . If start date or end date is not provided, the default values will be used ('2019-01-01' for start date and '2019-06-30' for end date).
 . The word cloud will be saved as a PNG file in the same directory with the name of the search query and the type of the word cloud (e.g., search_query_positive.png).
